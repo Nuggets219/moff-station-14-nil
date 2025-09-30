@@ -1,0 +1,27 @@
+# Player: Nilsy / Character: Nils Maxson
+- type: entity
+  id: PersonalItemNilsCard
+  name: We-Ya business bard
+  parent: [ Paper ]
+  description: A sleek black and gold business card. Seems old.
+  components:
+  - type: Sprite
+    sprite: _Moffstation/PersonalItems/Items/Nilsy/Nils-Maxson/weya-card.rsi
+    layers:
+    - state: weya-card
+    - state: weya-card
+      map: ["enum.PaperVisualLayers.Writing"]
+      visible: false
+    - state: paper_stamp-generic
+      map: ["enum.PaperVisualLayers.Stamp"]
+      visible: false
+  - type: Paper
+    content: syndicate-business-card-base #Replace this with good text
+  - type: PaperVisuals
+    headerImagePath: "/Textures/Interface/Paper/paper_heading_syndicate_logo.svg.96dpi.png" #this shit
+    headerMargin: 0.0, 0.0, 0.0, 2.0
+    backgroundImagePath: "/Textures/Interface/Paper/paper_background_blood_red.svg.96dpi.png" #too
+    backgroundPatchMargin: 16.0, 16.0, 16.0, 16.0
+    contentMargin: 4.0, 4.0, 4.0, 4.0
+    maxWritableArea: 400.0, 256.0
+
