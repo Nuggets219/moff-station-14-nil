@@ -15,10 +15,11 @@
   - Security
   - Brig
   - Maintenance
-  - Service
   - Detective
   - Cryogenics
   - External
+  - GenpopEnter
+  - GenpopLeave
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -26,8 +27,8 @@
 - type: startingGear
   id: DetectiveGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
-    #id: DetectivePDA # Moffstation - PDA loadouts
+  # eyes: ClothingEyesGlassesSecurity # Moffstation - Eyepatches!
+  # id: DetectivePDA # Moffstation - PDA loadouts
     ears: ClothingHeadsetSecurity
     #belt: ClothingBeltHolsterFilled # Moffstation - (Nox Loadout Improvements) - They get to choose a belt in loadouts instead.
   storage:

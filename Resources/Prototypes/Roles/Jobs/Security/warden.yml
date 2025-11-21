@@ -20,10 +20,11 @@
   - Brig
   - Armory
   - Maintenance
-  - Service
   - External
   - Detective
   - Cryogenics
+  - GenpopEnter
+  - GenpopLeave
   special:
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant ]
@@ -31,8 +32,8 @@
 - type: startingGear
   id: WardenGear
   equipment:
-    eyes: ClothingEyesGlassesSecurity
-#    id: WardenPDA # Moffstation - PDA loadouts
+  # eyes: ClothingEyesGlassesSecurity # Moffstation - Eyepatches!
+  # id: WardenPDA # Moffstation - PDA loadouts
     ears: ClothingHeadsetAltSecurity # Moffstation - (Give Warden Command Comms)
     pocket1: WeaponPistolMk58
   storage:
